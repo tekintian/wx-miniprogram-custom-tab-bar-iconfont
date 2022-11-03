@@ -1,0 +1,10 @@
+<!--logs.wxml-->
+
+<view class="container log-list">
+  <block wx:for="{{logs}}" wx:key="timeStamp" wx:for-item="log">
+    <text class="log-item">{{index + 1}}. {{log.date}}</text>
+  </block>
+</view>
+<view style="margin-bottom: 180rpx; position: absolute; bottom: 100rpx">
+  <button bindtap="clearLogs" style="font-size: 22rpx; color: red; width: 200rpx; border-radius: 20rpx; position: fixed; left: 544rpx; top: 1000rpx; height: 58rpx; display: block; box-sizing: border-box">清除日志</button>
+</view>

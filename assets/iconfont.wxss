@@ -1,0 +1,38 @@
+/**
+iconfont图标字体和样式 
+要什么图标自己到 https://www.iconfont.cn/ 挑选想要的图标，然后 添加到项目 然后下载 font class
+*/
+@font-face {
+  font-family: "iconfont";
+  src: url('//at.alicdn.com/t/c/font_3746551_f3x9ukyb8zv.woff2?t=1667439773121') format('woff2'),
+       url('//at.alicdn.com/t/c/font_3746551_f3x9ukyb8zv.woff?t=1667439773121') format('woff'),
+       url('//at.alicdn.com/t/c/font_3746551_f3x9ukyb8zv.ttf?t=1667439773121') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\e674";
+}
+
+.icon-picture:before {
+  content: "\e67c";
+}
+
+.icon-search:before {
+  content: "\e67d";
+}
+
+.icon-scanning:before {
+  content: "\e67e";
+}
+
+.icon-time:before {
+  content: "\e680";
+}

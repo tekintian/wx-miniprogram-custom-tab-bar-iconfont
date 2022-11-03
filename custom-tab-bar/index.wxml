@@ -1,0 +1,11 @@
+<!--miniprogram/mytabbar/index.wxml-->
+<view class="tab-bar-view">
+  <cover-view class="tab-bar" >
+  <cover-view class="tab-bar-border"></cover-view>
+  <cover-view wx:for="{{list}}" wx:key="index" class="tab-bar-item" data-path="{{item.pagePath}}" data-index="{{index}}" bindtap="switchTab">
+    <cover-view class="iconfont {{item.iconClass}}" style="color: {{selected === index ? selectedColor : color}}; width: 90rpx;height: 35rpx;"></cover-view>
+    <cover-view class="bar-txt" style="color: {{selected === index ? selectedColor : color}}">{{item.text}}</cover-view>
+  </cover-view>
+</cover-view>
+</view>
+

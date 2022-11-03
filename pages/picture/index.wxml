@@ -1,0 +1,16 @@
+<!--pages/picture/index.wxml-->
+<!-- swiper demo -->
+<view>
+  <swiper indicator-dots="true" autoplay="true" interval="3000" duration="500">
+    <swiper-item>
+    <cover-image src="https://i.imgtg.com/2022/10/27/P2yRp.th.jpg"  width="100%" height="360" />
+    </swiper-item>
+    <swiper-item>
+      <cover-image src="https://i.imgtg.com/2022/10/27/P2KIx.th.jpg"  width="100%" height="360" />
+    </swiper-item>
+  </swiper>
+</view>
+
+<view>
+  <image src="{{currentImg}}" mode="top" style="width: 671rpx; height: 329rpx; box-sizing: border-box; position: absolute; left: 29rpx; top: 380rpx; display: block" data-list="{{imgList}}" bindtap="openImg"></image>
+</view>
