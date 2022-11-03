@@ -1,5 +1,11 @@
 # 微信小程序使用 iconfont图标自定义tab-bar导航
 
+
+
+各种企业信息化软件，小程序定制开发联系QQ：932256355
+
+
+
 ![](./docs/wx-iconfont-tab-bar.png)
 
 
@@ -74,6 +80,10 @@
 
 
 Ok！
+
+
+
+各种企业信息化软件，小程序定制开发联系QQ：932256355   tekintian@gmail.com
 
 
 
