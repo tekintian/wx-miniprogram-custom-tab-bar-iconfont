@@ -93,13 +93,18 @@ Ok！
 
 ## 完整效果图
 
-![](https://i.imgtg.com/2022/11/03/RmUIj.md.png)
-
-![](https://i.imgtg.com/2022/11/03/Rmbhp.md.png)
+![](./docs/iconfont-tab.png)
 
 
 
 
 
+![](./docs/tab-bar-logs.png)
 
-![](https://i.imgtg.com/2022/11/03/RmxjY.md.png)
+
+
+
+
+
+![](./docs/tab-bar-picture.png)
+
